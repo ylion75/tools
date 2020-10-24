@@ -26,3 +26,7 @@ git push -u origin my-feature
 
 git pull (recupère les données de github en local)
 
+
+
+ERROR MESSAGE 
+git push --set-upstream origin master

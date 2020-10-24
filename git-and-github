@@ -47,11 +47,12 @@ RESUME (AVANT D'ALLER SE COUCHER):
 1/ init 
 2/ commit -m "message-commit" (ne pas oublier le message sinon c'est une galère)
 3/ relite add origin <"URL repo Github">
-4/ push -u origin main (selon la branche)
+4/ push -u origin master (selon la branche)
 5/ garder la foi
 
 Questions a résoudre : 
 - Pourquoi j'ai différents fichiers dans mon git remote -v
-- Pourquoi je peux pas gitpush
 - Toujours un probleme : mes gitpush passent mais j'ai toujours deux branches. Les fichiers apparaissent dans master mais pas dans main (--> merge ??)
 - A voir : checker git merge et git rebase pour fusionner le main et le master de façon propre
+- A voir : la question d'au dessus, et toujours 4 fichiers (2 fetch / 2 push) dans : git remote -v
+

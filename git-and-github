@@ -40,7 +40,10 @@ git push --set-upstream origin master
 Pourquoi j'ai une branche master et un main sur mon github ? Comment je fusionne les deux ? 
 Test ; est-ce que ca upload sur le github ? 
 
+GIT CHECKOUT 
+git checkout "branch"[ex:"branch"/"master"] : permet de changer de branche
 
 Questions a résoudre : 
 - Pourquo j'ai différents fichiers dans mon git remote -v
 - Pourquoi je peux pas gitpush
+- Toujours un probleme : mes gitpush passent mais j'ai toujours deux branches. Les fichiers apparaissent dans master mais pas dans main (--> merge ??)

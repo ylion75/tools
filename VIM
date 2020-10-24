@@ -1,0 +1,27 @@
+VIM 
+
+- Vim mode 
+normal mode 
+insert mode 
+line mode 
+
+
+vim abc123 : create a abc123 file 
+i : permet d'ecrire dans le fichier
+esc : retourne en normal mode
+:wq : sauvegarde et quitte
+:q! => quits vim
+
+//move cursor to 
+h : up 
+j ; down 
+k : right 
+l : left 
+
+ctrl + f : page down //"forrward"
+ctrl + b ; page up //"backward"
+
+w: go to the beginning of the next word (def : sequence of non blank character; punctuation works as a word)
+W : same but ignore puncuation      
+
+z: move the text up on your screen 

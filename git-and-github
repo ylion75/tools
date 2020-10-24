@@ -1,0 +1,28 @@
+GIT
+
+git init
+git status 
+commit //sauvegarde version du code
+
+git ignore -> il faut créer un dossier .gitignore à la source
+Par exemple pour les fichiers générés (binaires, versions)
+
+Premier commit
+git commit -> initial commit (avec tous les fichiers)
+
+git log -> retracer les commit
+
+
+
+LES BRANCHES
+
+git branch my-feature (créé une branche pour faire ses développement)
+git switch my-feature (pour aller sur la branche
+git switch master
+git merge my-feature
+git branche -d my feature (permet de supprimer la branche après le merge)
+
+git push -u origin my-feature
+
+git pull (recupère les données de github en local)
+

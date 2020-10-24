@@ -12,7 +12,13 @@ git commit -> initial commit (avec tous les fichiers)
 
 git log -> retracer les commit
 
-
+INITIATION REPO GITHUB
+git init
+git add README.ME //ajoute des fichiers 
+git commit -m "first commit"
+git commit branch -M main 
+git remote add origin https://github.com/ylion75/tools.git (//ou autre repo github)
+git push -u origin main
 
 LES BRANCHES
 

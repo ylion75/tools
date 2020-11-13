@@ -1,17 +1,5 @@
 GIT
 
-git init
-git status 
-commit //sauvegarde version du code
-
-git ignore -> il faut créer un dossier .gitignore à la source
-Par exemple pour les fichiers générés (binaires, versions)
-
-Premier commit
-git commit -> initial commit (avec tous les fichiers)
-
-git log -> retracer les commit
-
 INITIATION REPO GITHUB
 git init
 git add README.ME //ajoute des fichiers 
@@ -19,40 +7,40 @@ git commit -m "first commit"
 git commit branch -M main 
 git remote add origin https://github.com/ylion75/tools.git (//ou autre repo github)
 git push -u origin main
+git log : retracer les différents commit 
+
+Divers
+git ignore : ajouter un .gitignore à la source, permet d'ignorés certains fichiers (binaires, versions, etc.).
+
+liens utiles : 
+- https://www.security-helpzone.com/2016/07/19/internet-git-se-connecter-a-un-repo-en-ligne/
+
 
 LES BRANCHES
-
 git branch my-feature (créé une branche pour faire ses développement)
-git switch my-feature (pour aller sur la branche
+git switch my-feature (pour aller sur la branche)
 git switch master
 git merge my-feature
 git branche -d my feature (permet de supprimer la branche après le merge)
+git checkout : sort de la branche actuelle
+git checkout master : sort de la branche actuelle et va sur la branche master
 
+GITHUB
+git pull : recupère les données de github en local
+git push : pousse les données locales sur le repo github
 git push -u origin my-feature
 
-git pull (recupère les données de github en local)
-
-
-
-ERROR MESSAGE 
-git push --set-upstream origin master
-
-Pourquoi j'ai une branche master et un main sur mon github ? Comment je fusionne les deux ? 
-Test ; est-ce que ca upload sur le github ? 
 
 GIT CHECKOUT 
 git checkout "branch"[ex:"branch"/"master"] : permet de changer de branche
 
-RESUME (AVANT D'ALLER SE COUCHER):
+RESUME:
 1/ init 
-2/ commit -m "message-commit" (ne pas oublier le message sinon c'est une galère)
-3/ relite add origin <"URL repo Github">
+2/ commit -m "message-commit"
+3/ remote add origin <"URL repo Github">
 4/ push -u origin master (selon la branche)
-5/ garder la foi
 
 Questions a résoudre : 
-- Pourquoi j'ai différents fichiers dans mon git remote -v
-- Toujours un probleme : mes gitpush passent mais j'ai toujours deux branches. Les fichiers apparaissent dans master mais pas dans main (--> merge ??)
+- Merge des deux branches sur Git, actuellement fait à la main sur Github.
 - A voir : checker git merge et git rebase pour fusionner le main et le master de façon propre
-- A voir : la question d'au dessus, et toujours 4 fichiers (2 fetch / 2 push) dans : git remote -v
 

@@ -27,6 +27,7 @@ git checkout master : sort de la branche actuelle et va sur la branche master
 
 GITHUB
 git pull : recupère les données de github en local
+git rebase : pull mais écrase toutes les données en local
 git push : pousse les données locales sur le repo github
 git push -u origin my-feature
 
@@ -43,4 +44,9 @@ RESUME:
 Questions a résoudre : 
 - Merge des deux branches sur Git, actuellement fait à la main sur Github.
 - A voir : checker git merge et git rebase pour fusionner le main et le master de façon propre
+
+
+Rejoindre un projet 
+- Git clone URL[githubgitlab] : copie dans le dossier où on est dans la console
+- Créé une branche pour une feature en local 
 
